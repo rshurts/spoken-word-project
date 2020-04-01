@@ -15,4 +15,6 @@ We view art as inherently transcendent--a window to the Divine and to the innerm
 
 At Open Window Theatre we focus on a redemptive vision in the arts because we believe there's a crisis of hope and true beauty in today's world. Beauty is the purest glimpse we have of the Divine who is Beauty itself, leading Fyodor Dostoevsky to proclaim “beauty will save the world.”
 
-If you believe in the importance of our mission, **[please make a donation](https://donorbox.org/open-window-theatre)** to help support us during the coronavirus crisis. Thank you!
+If you believe in the importance of our mission, **[please make a donation](https://donorbox.org/open-window-theatre)** to help support us during the coronavirus crisis. 
+
+Thank you!
