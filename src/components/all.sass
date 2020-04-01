@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Montserrat&display=swap')
+@import '~@mdi/font/css/materialdesignicons.css'
+@import "~bulma/sass/utilities/initial-variables"
+
+$family-sans-serif: 'Raleway', sans-serif
+$family-primary: 'Raleway', sans-serif
+$family-secondary: 'Montserrat', sans-serif
+
+$owt-dark1: #231F20
+$owt-dark2: #582B39
+$owt-dark3: #56423E
+$owt-dark4: #89726D
+$owt-dark5: #BEA6A0
+$owt-red: #94070A
+$owt-purple: #772761
+$owt-blue: #53B9C7
+$owt-yellow: #D1BB5C
+$owt-white3: #FFF5F1
+$owt-white2: #FFFAF8
+$owt-white1: #FFFEFC
+
+$primary: $owt-red
+$info: $owt-purple
+$success: $owt-blue
+$warning: $owt-yellow
+$danger: $owt-dark4
+
+$black: $owt-dark1
+$grey-darker: $owt-dark2
+$grey-dark: $owt-dark3
+$white: $owt-white1
+$white-bis: $owt-white2
+$white-ter: $owt-white3
+$red: $owt-red
+$yellow: $owt-yellow
+$purple: $owt-purple
+$blue: $owt-purple
+
+$link: $owt-red
+$link-focus-border: $owt-red
+$link-visited: $owt-purple
+
+h1, h2, h3, h4, h5, h6
+  font-family: $family-secondary
+
+.title, .subtitle
+  font-family: $family-secondary
+
+.box-background
+  box-shadow: rgba(35, 31, 32, 0.65) 0.5rem 0 0, rgba(35, 31, 32, 0.65) -0.5rem 0 0
+  background-color: rgba(35, 31, 32, 0.65)
+  color: $white
+  line-height: 1
+  padding: 0.25em
+
+.full-width-image
+    width: 100vw
+    height: 300px
+    display: flex
+    justify-content: center
+    align-items: center
+
+.margin-top-0
+  margin-top: 0 !important
+
+// blog roll
+.blog-list-item header
+  display: flex
+  margin-bottom: 1em
+.blog-list-item .featured-thumbnail
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
+
+
+@import "~bulma"
+
+
+// responsiveness
++tablet-only
+  .blog-list-item .featured-thumbnail
+    flex-basis: 50%
+
++mobile
+  .blog-list-item header
+    display: block
+  .blog-list-item .featured-thumbnail
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em

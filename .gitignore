@@ -1,0 +1,34 @@
+# Build output
+.cache/
+public/
+static/admin/*.bundle.*
+
+# Javascript and Node
+node_modules
+.npmrc
+.npm
+.node_repl_history
+.yarn-integrity
+.eslintcache
+.nyc_output
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.idea
+.vscode
+*.code_workspace
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
