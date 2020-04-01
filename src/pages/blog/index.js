@@ -16,7 +16,7 @@ const BlogIndexPage = ({ data }) => (
         backgroundRepeat: 'no-repeat',
       }}
     >
-      <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen box-background">
+      <h1 className="has-text-weight-bold is-size-5-mobile is-size-2-tablet is-size-1-widescreen box-background">
         Latest Spoken Words
       </h1>
     </BackgroundImage>

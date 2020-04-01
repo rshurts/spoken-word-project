@@ -41,10 +41,10 @@ export const IndexPageTemplate = ({
               flexDirection: 'column',
             }}
           >
-            <h1 className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen box-background">
+            <h1 className="has-text-weight-bold is-size-5-mobile is-size-2-tablet is-size-1-widescreen box-background">
               {heading}
             </h1>
-            <h2 className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen box-background">
+            <h2 className="has-text-weight-bold is-size-6-mobile is-size-5-tablet is-size-4-widescreen box-background">
               {subheading}
             </h2>
           </div>
@@ -52,20 +52,18 @@ export const IndexPageTemplate = ({
       ) : null}
       <section className="section">
         <div className="container">
-          <div className="content">
-            <figure className="image is-16by9">
-              <iframe
-                title={vimeo.title}
-                className="has-ratio"
-                src={`https://player.vimeo.com/video/${vimeo.id}`}
-                width="640"
-                height="360"
-                frameBorder="0"
-                allow="autoplay; fullscreen"
-                allowFullScreen
-              ></iframe>
-            </figure>
-          </div>
+          <figure className="image is-16by9" style={{ marginBottom: '3rem' }}>
+            <iframe
+              title={vimeo.title}
+              className="has-ratio"
+              src={`https://player.vimeo.com/video/${vimeo.id}`}
+              width="640"
+              height="360"
+              frameBorder="0"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+            ></iframe>
+          </figure>
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
