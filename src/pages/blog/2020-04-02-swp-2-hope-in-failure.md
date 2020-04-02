@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'SWP #2: Hope in Failure'
+title: 'SWP #2: "Hope in Failure"'
 author: George William Russell
 date: 2020-04-02T19:17:40.492Z
 vimeoId: '402241392'
