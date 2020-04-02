@@ -17,7 +17,7 @@ const BlogIndexPage = ({ data }) => (
       }}
     >
       <h1 className="has-text-weight-bold is-size-5-mobile is-size-2-tablet is-size-1-widescreen box-background">
-        Latest Spoken Words
+        Spoken Word Archives
       </h1>
     </BackgroundImage>
     <section className="section">
