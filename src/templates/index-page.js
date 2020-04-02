@@ -68,7 +68,7 @@ export const IndexPageTemplate = ({
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="columns">
-                  <div className="column">
+                  <div className="column has-text-centered">
                     <script
                       src="https://donorbox.org/widget.js"
                       paypalexpress="false"
@@ -83,7 +83,7 @@ export const IndexPageTemplate = ({
                       seamless="seamless"
                       src="https://donorbox.org/embed/open-window-theatre"
                       style={{
-                        maxWidth: '500px',
+                        maxWidth: '368px',
                         minWidth: '310px',
                         maxHeight: 'none!important',
                       }}
