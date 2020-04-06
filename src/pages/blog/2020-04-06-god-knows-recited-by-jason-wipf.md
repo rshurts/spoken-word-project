@@ -1,12 +1,18 @@
 ---
 templateKey: blog-post
-title: God Knows (recited by Jason Wipf)
+title: God Knows
 author: Minnie Louise Haskins
 date: 2020-04-06T21:15:01.813Z
 vimeoId: '404768778'
 tags:
   - Minnie Louise Haskins
 ---
+(Poem recited and video produced by Jason Wipf)
+
+Full text of "God Knows"--popularly known as "The Gate of the Year"--by Minnie Louise Haskins...
+
+\-----------------
+
 And I said to the man who stood at the gate of the year:\
 “Give me a light that I may tread safely into the unknown.”\
 And he replied:\
