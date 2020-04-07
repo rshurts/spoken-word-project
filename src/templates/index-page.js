@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
           fluid={image.childImageSharp.fluid}
           style={{
             backgroundSize: 'cover',
-            backgroundPosition: '50% 50%',
+            backgroundPosition: '50% 66%',
             backgroundRepeat: 'no-repeat',
           }}
         >
