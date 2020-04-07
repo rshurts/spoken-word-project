@@ -64,7 +64,7 @@ export const IndexPageTemplate = ({
               allowFullScreen
             ></iframe>
           </figure>
-          <div className="columns">
+          <div className="columns" id="donate">
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <div className="columns">

@@ -33,7 +33,7 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav className="navbar" role="navigation" aria-label="main-navigation">
+      <nav className="navbar is-fixed-top" role="navigation" aria-label="main-navigation">
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
@@ -65,6 +65,11 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 Past Videos
               </Link>
+              <div className="navbar-item">
+                <Link className="button is-link" to="/#donate">
+                Donate
+              </Link>
+              </div>
             </div>
           </div>
         </div>
