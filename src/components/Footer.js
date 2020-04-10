@@ -41,6 +41,10 @@ const Footer = class extends React.Component {
               <br />
               Inver Grove Heights, MN 55077
               <br />
+              <a href="https://www.openwindowtheatre.org/">
+                openwindowtheare.org
+              </a>
+              <br/>
               <a href="mailto:freshair@openwindowtheatre.org">
                 freshair@openwindowtheatre.org
               </a>
