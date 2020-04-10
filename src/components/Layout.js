@@ -77,7 +77,6 @@ const TemplateWrapper = ({ children }) => {
         />
         <meta name="twitter:image:alt" content={title} />
       </Helmet>
-      {`${withPrefix('/')}`}
       <Navbar />
       <div>{children}</div>
       <Footer />
