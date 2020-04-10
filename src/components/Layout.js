@@ -73,7 +73,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="twitter:title" content={title} />
         <meta
           name="twitter:image"
-          content="https://spokenword.openwindowtheatre.org/img/twitter-image.jpg"
+          content="https://spokenword.openwindowtheatre.org/img/twitter-image.png"
         />
         <meta name="twitter:image:alt" content={title} />
       </Helmet>
