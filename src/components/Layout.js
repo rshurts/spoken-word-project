@@ -50,14 +50,32 @@ const TemplateWrapper = ({ children }) => {
         />
         <meta name="theme-color" content="#94070A" />
 
+        {/*Open Graph data*/}
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
-        <meta property="og:url" content="/" />
+        <meta
+          property="og:url"
+          content="https://spokenword.openwindowtheatre.org"
+        />
+        <meta property="og:site_name" content="The Spoken Word Project" />
         <meta
           property="og:image"
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
+        <meta name="og:image:alt" content={title} />
+
+        {/*Twitter Card data*/}
+        <meta name="twitter:card" content="website" />
+        <meta name="twitter:site" content="@OWTheatre" />
+        <meta name="twitter:creator" content="@OWTheatre" />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:title" content={title} />
+        <meta
+          name="twitter:image"
+          content={`${withPrefix('/')}img/og-image.jpg`}
+        />
+        <meta name="twitter:image:alt" content={title} />
       </Helmet>
       <Navbar />
       <div>{children}</div>
