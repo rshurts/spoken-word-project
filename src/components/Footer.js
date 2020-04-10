@@ -44,7 +44,7 @@ const Footer = class extends React.Component {
               <a href="https://www.openwindowtheatre.org/">
                 openwindowtheare.org
               </a>
-              <br/>
+              <br />
               <a href="mailto:freshair@openwindowtheatre.org">
                 freshair@openwindowtheatre.org
               </a>
