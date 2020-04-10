@@ -61,7 +61,9 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:site_name" content="The Spoken Word Project" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix(
+            'https://spokenword.openwindowtheatre.org/'
+          )}img/og-image.jpg`}
         />
         <meta name="og:image:alt" content={title} />
 
@@ -73,10 +75,13 @@ const TemplateWrapper = ({ children }) => {
         <meta name="twitter:title" content={title} />
         <meta
           name="twitter:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix(
+            'https://spokenword.openwindowtheatre.org/'
+          )}img/og-image.jpg`}
         />
         <meta name="twitter:image:alt" content={title} />
       </Helmet>
+      {`${withPrefix('/')}`}
       <Navbar />
       <div>{children}</div>
       <Footer />
