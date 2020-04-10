@@ -66,7 +66,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="og:image:alt" content={title} />
 
         {/*Twitter Card data*/}
-        <meta name="twitter:card" content="website" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@OWTheatre" />
         <meta name="twitter:creator" content="@OWTheatre" />
         <meta name="twitter:description" content={description} />
