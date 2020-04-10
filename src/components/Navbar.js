@@ -33,7 +33,11 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav className="navbar is-fixed-top" role="navigation" aria-label="main-navigation">
+      <nav
+        className="navbar is-fixed-top"
+        role="navigation"
+        aria-label="main-navigation"
+      >
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
@@ -49,26 +53,31 @@ const Navbar = class extends React.Component {
               tabIndex="0"
               aria-label="Navigation Menu"
             >
-              <span />
-              <span />
-              <span />
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
+              <span aria-hidden="true" />
             </div>
           </div>
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
+            <div className="navbar-start has-text-centered">
+              <Link className="navbar-item" to="/contact">
+                Submit Your Spoken Word
               </Link>
               <Link className="navbar-item" to="/blog">
                 Past Videos
               </Link>
+              <Link className="navbar-item" to="/about">
+                About
+              </Link>
+            </div>
+            <div className="navbar-end has-text-centered">
               <div className="navbar-item">
                 <Link className="button is-link" to="/#donate">
-                Donate
-              </Link>
+                  Donate
+                </Link>
               </div>
             </div>
           </div>
