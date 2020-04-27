@@ -8,6 +8,12 @@ tags:
   - Gerard Manley Hopkins
   - Cole Matson
 ---
+Poem recited by Cole Matson, Ph.D, Managing Director of Open Window Theatre.
+
+\-------------------------
+
+**God's Grandeur** by Gerard Manley Hopkins
+
 The world is charged with the grandeur of God.\
 It will flame out, like shining from shook foil;\
 It gathers to a greatness, like the ooze of oil\
