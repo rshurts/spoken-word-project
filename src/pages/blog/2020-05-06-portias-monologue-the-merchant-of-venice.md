@@ -25,7 +25,7 @@ But mercy is above this sceptered sway.\
 It is enthronèd in the hearts of kings;\
 It is an attribute to God Himself;\
 And earthly power doth then show likest God's\
-When mercy seasons justice. Therefore, Jew,\
+When mercy seasons justice. Therefore,\
 Though justice be thy plea, consider this:\
 That in the course of justice none of us\
 Should see salvation. We do pray for mercy,\
