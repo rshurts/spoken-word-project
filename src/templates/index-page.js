@@ -95,7 +95,7 @@ export const IndexPageTemplate = ({
                     <div className="content has-text-centered">
                       <a
                         className="button is-link"
-                        href="https://red.vendini.com/donation-software.html?t=donation&d=8b64c8a0140042827aee0b14b8d082d7"
+                        href="https://ci.ovationtix.com/35765/store/donations/38266"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
