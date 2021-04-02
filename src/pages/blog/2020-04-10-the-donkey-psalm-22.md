@@ -7,6 +7,7 @@ vimeoId: '406256328'
 tags:
   - G.K. Chesterton
   - Psalms
+  - Jeremy Stanbary
 ---
 **The Donkey**\
 by G.K. Chesterton

@@ -6,6 +6,7 @@ date: 2020-04-02T19:17:40.492Z
 vimeoId: '402241392'
 tags:
   - George William Russell
+  - Jeremy Stanbary
 ---
 Though now thou hast failed and art fallen, despair not because of defeat,\
 Though lost for a while be thy heaven and weary of earth be thy feet,\
